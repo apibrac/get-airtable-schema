@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/apibrac/get-airtable-schema",
   "author": "apibrac",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.3.2"
+  },
+  "scripts": {
+    "start": "functions-framework --target=fetch"
+  }
 }
