@@ -1,0 +1,9 @@
+{
+  "name": "get-airtable-schema",
+  "version": "1.0.0",
+  "description": "Function to query the schema of an airtable base",
+  "main": "index.js",
+  "repository": "https://github.com/apibrac/get-airtable-schema",
+  "author": "apibrac",
+  "license": "MIT"
+}
