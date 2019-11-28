@@ -1,6 +1,9 @@
 const getSchema = require("./getSchema");
 
 exports.fetch = async function(req, res) {
+  res.set("Access-Control-Allow-Origin", "*");
+  res.set("Access-Control-Allow-Methods", "GET, POST");
+
   const { id } = req.query;
   if (!id) return res.status(400).send("Missing id!");
 
