@@ -11,3 +11,7 @@ Function to get airtable schema from the shared id
 ### Use
 
 Call `http_end_point?id=ID` for example `https://us-central1-utils-functions.cloudfunctions.net/get-airtable-schema?id=ID`
+
+### Deploy
+
+`gcloud beta functions deploy get-airtable-schema --entry-point=fetch --trigger-http --stage-bucket=utilsfunctions --runtime=nodejs10`
